@@ -16,7 +16,8 @@ from two extra package indices:
 To build an image, run the following command:
 
 ```
-VERSION=2.0.0 docker build . --build-arg TENSORFLOW_VERSION=$VERSION -t tensorflow:$VERSION-py3-pi
+export VERSION=2.0.0
+docker build . --build-arg TENSORFLOW_VERSION=$VERSION -t tensorflow:$VERSION-py3-pi
 ```
 
 > In this example version `2.0.0` is used, but you can change it if required.
