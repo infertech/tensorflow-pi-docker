@@ -1,7 +1,7 @@
 # Tensorflow in Docker for Raspberry
 
 This image was developed for the raspberry pi but actually
-it should run normall on any armv7l system.
+it should run normally on any armv7l system.
 
 ## Description
 
