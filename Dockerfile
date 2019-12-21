@@ -8,6 +8,7 @@ RUN pip config --global set global.extra-index-url \
 RUN set -ex; \
     apt-get update; \
     apt-get install -y --no-install-recommends \
+        libatlas-base-dev \
         libhdf5-dev; \
     rm -rf /var/lib/apt/lists/*
 
